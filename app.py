@@ -13,7 +13,6 @@ def index():
         housing = HousingException(e,sys)
         logging.info(housing.error_message)
         logging.info("We are testing logging module")
-        
     return "CI CD pipeline has been established."
 
 
